@@ -4,7 +4,7 @@ A peer hosting services may agree to provide access to their filesystem or alloc
 
 ### Local Filesystem
 
-While Wasm modules in general are sandboxed to not have access to host resources, Marine Wasm modules may be granted access to a variety of host resources iff the host peer agrees to such access. The request for resource access and allocation come in form of deployment parameters, which we'll see very soon
+While Wasm modules in general are sandboxed to not have access to host resources, Marine Wasm modules may be granted access to a variety of host resources if the host peer agrees to such access. The request for resource access and allocation come in form of deployment parameters, which we'll see very soon
 
 The [accompanying repo](notion://www.notion.so/fluencenetwork/Fluence-Developer-Documentation-bdf8d06ad52e493fb765456dbd5480cd).
 
@@ -46,12 +46,6 @@ services
 │   │   ├── module.yaml
 │   │   └── src
 │   │       └── main.rs
-│   └── use_filesys
-│       ├── Cargo.lock
-│       ├── Cargo.toml
-│       ├── module.yaml
-│       └── src
-│           └── main.rs
 └── service.yaml
 
 ```

@@ -64,7 +64,7 @@ How could we overcome this potential breach? On blog service host, blogNode, the
 
 In our case, the data triplet is %init\_peer\_id%, "", "get\_true" but we expect authNode, authSrvId, "check\_permission" with some known constants for authNode, authSrvId as we know where we deployed the service. As the add\_post function checks this triplet along with the token argument, and will reject the particle. Hence, we failed to trick the system by faking the argument's origin as only the Auth service is considered a valid source of truth for authorization tokens.
 
-Our attack got thwarted again but we have a few more tricks up our sleeves.
+Our attack got thwarted again, but we have a few more tricks up our sleeves.
 
 ### Third Try: Using The Wrong Piece Of Data
 

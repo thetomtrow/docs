@@ -55,7 +55,7 @@ keyPairs:
 defaultKeyPairName: ""
 ```
 
-Of course, you can also a key pair:
+Of course, you can also remove a key pair:
 
 ```bash
 fluence key remove
