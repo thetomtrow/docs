@@ -250,7 +250,7 @@ Now we have a working service implementation which can be deployed to peer and i
 
 You learned:
 - Basic aqua syntax
-- How to implement a peer
+- How to implement an Aqua service in js
 - Notion of IPFS
 
 You can find remote service call examples [here](https://github.com/fluencelabs/examples)
