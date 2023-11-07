@@ -8,7 +8,7 @@ Fluence is an open, distributed, peer-to-peer protocol, designed to be credibly 
 
 ## Permissionless
 
-Similar to internet protocols such as HTTP, the Fluence protocol applies no limitations on who can join as providers and who can be a customer. There is no approval, KYC, or similar procedure to enter the compute marketplace or rent resources from the marketplace. There are no requirements for hardware performance, location, or ownership.
+Similar to internet protocols such as HTTP, the Fluence protocol applies no limitations on who can join as providers and who can be a customer. But in practice, we expect compute providers to need to know who their customers are or, at a minimum, have them authenticated by a certificate authority. And customers will also have similar requirements for the hosts of their computation. The protocol imposes no requirements for hardware performance, location, or ownership, but customers will gravitate to the most reliable and performant offerings in trusted and known locations.
 
 ## Censorship resistance
 
@@ -21,4 +21,4 @@ The Fluence network runs on the Aqua protocol, which ensures cryptographic secur
 
 ## Collective ownership
 
-The Fluence network is governed by the Fluence DAO in which any Fluence token holder may participate. The DAO manages the protocol development, updates, and distributes funds from the treasury to enhance and grow the network. Fluence is managed collectively by its community and not by a traditional company structure.
+The Fluence network is governed by the Fluence DAO in which any Fluence token holder may participate. The DAO manages the protocol development, updates, and distributes funds from the treasury to enhance and grow the network. Fluence is managed collectively by its community and not by a traditional company structure, but the DAO will have a legal wrapper, a Swiss Association which will help protect the token holders from liability. The Association will be subject to the votes of the DAO, and the DAO will elect the governing committee which has certain oversight responsibilities. 
